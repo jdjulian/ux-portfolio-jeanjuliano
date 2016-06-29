@@ -1,0 +1,102 @@
+ html, body{
+     overflow-x: hidden;
+     color: #363F3C;
+     font-family: "Questrial"; 
+ }
+
+
+.container {
+     margin-right: auto;
+     margin-left: auto;
+     position: relative;
+     overflow: auto; 
+     width: 100%;
+ }
+
+.row {
+     width: 80%;
+     margin: 0 auto;
+}
+
+/**NAV**/
+.nav {
+     background-color: #A9C7BD;
+     height: 60px;
+}
+
+.left, .right {
+     float: left;
+     width: 50%;
+}
+
+.name {
+    color: #D3643B;
+}
+
+.nav ul {
+    text-align: right;
+    vertical-align: middle;
+}
+
+.nav ul li {
+    display: inline-block;
+    margin-left: 10px;
+    vertical-align: middle;
+}
+
+.nav a, .nav p {
+    text-decoration: none;
+    font-size: 21px;
+    vertical-align: middle;
+    color: #363F3C;
+}
+
+/**HERO**/
+.hero .right img {
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+.hero .left img {
+    width: 50%;
+    display: block;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+
+.button {
+    display: block;
+    margin: 0 auto;
+    border-radius: 6px;
+    background-color: #D3643B;
+    color: #FFFFFF;
+    font-size: 16px;
+    padding: 12px 28px;
+    width: 150px;
+}
+
+.hero p {
+    text-align: center;
+}
+    
+
+/**CASE STUDIES**/
+
+
+/**FOOTER**/
+.footer {
+    background-color: #363F3C;
+    height: 60px;
+}
+
+.footer p {
+    color: #FFFFFF;
+    text-align: center;
+    vertical-align: middle;    
+}
+
+
+
+
+    
