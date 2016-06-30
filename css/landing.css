@@ -4,7 +4,6 @@
      font-family: "Questrial"; 
  }
 
-
 .container {
      margin-right: auto;
      margin-left: auto;
@@ -14,7 +13,7 @@
  }
 
 .row {
-     width: 80%;
+     width: 90%;
      margin: 0 auto;
 }
 
@@ -40,29 +39,35 @@
 
 .nav ul li {
     display: inline-block;
-    margin-left: 10px;
+    margin-left: 20px;
     vertical-align: middle;
 }
 
 .nav a, .nav p {
     text-decoration: none;
-    font-size: 21px;
+    font-size: 20px;
     vertical-align: middle;
     color: #363F3C;
 }
 
 /**HERO**/
-.hero .right img {
-    width: 100%;
-    display: block;
-    margin: 0 auto;
+.hero .row {
+     width: 80%;
+     margin: 0 auto;
 }
-
-.hero .left img {
-    width: 50%;
+.hero .right img {
+    width: 105%;
     display: block;
     margin: 0 auto;
     padding-top: 30px;
+}
+
+.hero .left img {
+    width: 45%;
+    display: block;
+    margin: 0 auto;
+    padding-top: 70px;
+    padding-bottom: -30px;
 }
 
 .button {
@@ -71,13 +76,14 @@
     border-radius: 6px;
     background-color: #D3643B;
     color: #FFFFFF;
-    font-size: 16px;
+    font-size: 20px;
     padding: 12px 28px;
-    width: 150px;
+    width: 200px;
 }
 
 .hero p {
     text-align: center;
+    font-size: 20px;
 }
     
 
