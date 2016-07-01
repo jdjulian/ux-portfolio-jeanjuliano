@@ -52,14 +52,14 @@
 
 /**HERO**/
 .hero .row {
-     width: 80%;
+     width: 75%;
      margin: 0 auto;
 }
 .hero .right img {
-    width: 105%;
+    width: 100%;
     display: block;
     margin: 0 auto;
-    padding-top: 30px;
+    padding-top: 35px;
 }
 
 .hero .left img {
