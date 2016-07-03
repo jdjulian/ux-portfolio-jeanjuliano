@@ -88,7 +88,79 @@
     
 
 /**CASE STUDIES**/
+.more {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 100;
+}
 
+.case-studies img {
+    display: block;
+    margin: 0 auto;
+    z-index: 99;
+}
+
+.case-studies .left img {
+    width: 40%;  
+    padding-top: 15px;
+    padding-bottom: 15px;
+    
+}
+
+.case-studies .right img {
+    width: 40%;  
+    padding-top: 50px;
+    padding-bottom: 25px;
+    
+}
+
+.case-studies .row {
+    width: 100%;
+    overflow: auto;
+}
+
+.case-studies .left, .case-studies .right {
+    float: left;
+    width: 49%;
+    height: 350px;
+}
+
+.case-studies .left {
+    background: url("/images/pink_birds.png");
+    background-size: 100%;
+    filter: blur(0px);
+    -moz-filter   : blur(0px);
+    -webkit-filter: blur(0px);
+    -o-filter     : blur(0px);
+}
+
+.case-studies .middle {
+    float: left;
+    width: 2%;
+    height: 350px;
+    background-color: white;
+    background-size: 100%;
+}
+
+.case-studies .right {
+    background-image: url("/images/pilates-elderly.jpg");
+    background-size: 100%;
+    filter: blur(0px);
+    -moz-filter   : blur(0px);
+    -webkit-filter: blur(0px);
+    -o-filter     : blur(0px);
+}
+
+.logo-white {
+    background-color: white;
+    margin-top: 15%;
+    opacity: .9
+}
+
+.case-studies .left img {
+  z-index: 999;
+}
+    
 
 /**FOOTER**/
 .footer {
@@ -99,7 +171,8 @@
 .footer p {
     color: #FFFFFF;
     text-align: center;
-    vertical-align: middle;    
+    vertical-align: middle;
+    padding-top: 5px;
 }
 
 
