@@ -13,14 +13,14 @@
  }
 
 .row {
-     width: 90%;
+     width: 80%;
      margin: 0 auto;
 }
 
 /**NAV**/
 .nav {
      background-color: #A9C7BD;
-     height: 60px;
+     height: 80px;
 }
 
 .left, .right {
@@ -35,6 +35,7 @@
 .nav ul {
     text-align: right;
     vertical-align: middle;
+    padding-top: 10px;
 }
 
 .nav ul li {
@@ -48,6 +49,7 @@
     font-size: 20px;
     vertical-align: middle;
     color: #363F3C;
+    padding-top: 10px;
 }
 
 /**HERO**/
@@ -165,14 +167,16 @@
 /**FOOTER**/
 .footer {
     background-color: #363F3C;
-    height: 60px;
+    height: 80px;
 }
 
 .footer p {
-    color: #FFFFFF;
+    color: #F2F1F0;
     text-align: center;
     vertical-align: middle;
-    padding-top: 5px;
+    padding-top: 15px;
+    font-size: 16px;
+}
 }
 
 
