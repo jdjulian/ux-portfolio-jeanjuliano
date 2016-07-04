@@ -1,31 +1,32 @@
- html, body{
-     overflow-x: hidden;
-     color: #363F3C;
-     font-family: "Questrial"; 
+html, body {
+    overflow-x: hidden;
+    color: #363F3C;
+    font-family: "Questrial"; 
  }
 
 .container {
-     margin-right: auto;
-     margin-left: auto;
-     position: relative;
-     overflow: auto; 
-     width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+    overflow: auto; 
+    width: 100%;
  }
 
 .row {
-     width: 80%;
-     margin: 0 auto;
+    width: 80%;
+    display: block;
+    margin: 0 auto;
 }
 
 /**NAV**/
 .nav {
-     background-color: #A9C7BD;
-     height: 80px;
+    background-color: #A9C7BD;
+    height: 80px;
 }
 
 .left, .right {
-     float: left;
-     width: 50%;
+    float: left;
+    width: 50%;
 }
 
 .about li a {

@@ -18,6 +18,11 @@ html, body{
     margin: 0 auto;
 }
 
+img {
+    display: block;
+    margin: 0 auto;
+}
+
 /**NAV**/
 .nav {
     background-color: #A9C7BD;
@@ -53,49 +58,90 @@ html, body{
     padding-top: 10px;
 }
 
-.nav .about {
+.nav .work {
     color: #D3643B;
 }
 
 /** HERO **/
 .hero {
-    background-image: url("/images/About-Photo4.png");
-    background-size: cover;
-    height: 450px;
+    height: auto;
 }
 
-.hero .left {
-    width: 70%;
+.hero img {
+    padding-top: 50px;
+    width: 25%;
+    display: block;
+    margin: 0 auto;
 }
 
-h1 {
-    padding-top: 70px;
-    font-size: 60px;
-    color: #F2F1F0;
-    font-weight: 500;
-    line-height: 10px;
-}
-
-h2 {
+.hero h3 {
     font-size: 32px;
-    color: white;
+    color: gray;
     font-weight: 100;
     line-height: 50px;
+    text-align: center;
 }
 
-/** BIO **/
-.bio p {
-    padding-top: 50px;
-    font-size: 25px;
-    line-height: 35px;
-    padding-bottom: 50px;
+/** CASE-STUDY **/
+
+.case-study {
+    background-color: #F2F1F0;
 }
 
-span {
+.case-study .row {
+    width: 70%;
+    display: block;
+    margin: 0 auto;
+}
+
+.case-study p {
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.case-study h3 {
+    font-size: 28px;
+}
+
+.case-study h4 {
+    font-size: 24px;
+}
+
+.case-study img {
+    width: 100%;
+    height: auto;
+}
+
+.case-study li {
+    font-size: 18px;
+    line-height: 25px;
+}
+
+blockquote {
+  background: #f9f9f9;
+  border-left: 10px solid #ccc;
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
+}
+
+blockquote:before {
+  color: #ccc;
+  content: open-quote;
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+}
+
+blockquote p {
+  display: inline;
+}
+
+/**span {
     color: #D3643B;
-}
+}**/
 
-/** LINKS **/
+/** LINKS 
 .button {
     display: block;
     margin: 0 auto;
@@ -117,15 +163,15 @@ span {
     text-decoration: none;
     display: inline-block;
     font-size: 48px;
-    /**padding-right: 35px;
-    text-align: center;**/
+    padding-right: 35px;
+    text-align: center;
 }
 
 .links ul {
     text-align: center;
     padding-top: 50px;
     padding-bottom: 50px;
-}
+}**/
     
 
 /** FOOTER **/
