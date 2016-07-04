@@ -107,6 +107,26 @@ span {
     text-align: center;
 }
 
+.fa {
+    color: #363F3C;
+    margin-right: 30px;
+}
+
+.links ul li {
+    text-decoration: none;
+    display: inline-block;
+    font-size: 48px;
+    /**padding-right: 35px;
+    text-align: center;**/
+}
+
+.links ul {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+    
+
 /** FOOTER **/
 .footer {
     background-color: #363F3C;
