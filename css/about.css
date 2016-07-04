@@ -52,7 +52,7 @@
     padding-top: 10px;
 }
 
-.nav span {
+.nav .about {
     color: #D3643B;
 }
 
@@ -95,6 +95,17 @@ span {
 }
 
 /** LINKS **/
+.button {
+    display: block;
+    margin: 0 auto;
+    border-radius: 6px;
+    background-color: #D3643B;
+    color: #FFFFFF;
+    font-size: 20px;
+    padding: 12px 28px;
+    width: 200px;
+    text-align: center;
+}
 
 /** FOOTER **/
 .footer {

@@ -28,7 +28,7 @@
      width: 50%;
 }
 
-.name {
+.about li a {
     color: #D3643B;
 }
 
@@ -50,6 +50,10 @@
     vertical-align: middle;
     color: #363F3C;
     padding-top: 10px;
+}
+
+.name {
+    color: #D3643B;
 }
 
 /**HERO**/
@@ -130,10 +134,10 @@
 .case-studies .left {
     background: url("/images/pink_birds.png");
     background-size: 100%;
-    filter: blur(0px);
-    -moz-filter   : blur(0px);
-    -webkit-filter: blur(0px);
-    -o-filter     : blur(0px);
+    filter: blur(5px);
+    -moz-filter   : blur(5px);
+    -webkit-filter: blur(5px);
+    -o-filter     : blur(5px);
 }
 
 .case-studies .middle {
@@ -147,10 +151,10 @@
 .case-studies .right {
     background-image: url("/images/pilates-elderly.jpg");
     background-size: 100%;
-    filter: blur(0px);
-    -moz-filter   : blur(0px);
-    -webkit-filter: blur(0px);
-    -o-filter     : blur(0px);
+    filter: blur(5px);
+    -moz-filter   : blur(5px);
+    -webkit-filter: blur(5px);
+    -o-filter     : blur(5px);
 }
 
 .logo-white {
