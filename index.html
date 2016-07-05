@@ -13,7 +13,7 @@
         <link rel="stylesheet" type="text/css" href="css/normalize.css">
         <link rel="stylesheet" type="text/css" href="css/landing.css">
         <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
-        <link rel="stylesheet" type="text/css"href="css/dropit.css">
+        <link rel="stylesheet" type="text/css" href="css/dropit.css">
         <link rel="stylesheet" type="text/css"href="css/animated.css">
         
     </head>
@@ -27,13 +27,16 @@
                 <div class="right">
                     <ul><!--nav links-->
                         <li><a href="about.html" class="about">About</a></li>
-                        <li><a href="work.html" class="work">Work</a>
-                            <!--<ul>
-                                <li><a href="crux.html.html">CRUX</a></li>
+                        
+                        <li class="dropdown">
+                            <a href="#" class="dropbtn">Work</a>
+                            <ul class="dropdown-content">
+                                <li><a href="crux.html">CRUX</a></li>
                                 <li><a href="jsweets.html">JSweets</a></li>
                                 <li><a href="wisemoves.html">Wise Moves</a></li>
-                            </ul>-->
+                            </ul>
                         </li>
+                  
                         <li><a href="contact.html" class="contact">Contact</a></li>
                     </ul>
                 </div>
@@ -54,7 +57,9 @@
         </div>
         
         <div class="container"> <!--other case studies-->
-            <h3 class="more">More Case Studies</h3>
+            <div class="row">
+                <h3 class="more">More Case Studies</h3>
+            </div>
         </div>
         
         <div class="container case-studies"> <!--other case studies-->
@@ -87,10 +92,13 @@
         </div>
         
         <!--Javascript-->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
         <script src="js/dropit.js"></script>
         <script src="js/landing.js"></script>
         <script type="text/javascript">
-        $( "#menu" ).dropit();
+        $(document).ready(function() {
+            $('.menu').dropit();
+        });
         </script>
     </body>
 </html>

@@ -7,13 +7,13 @@ html, body{
 .container {
     margin-right: auto;
     margin-left: auto;
-    position: relative;
-    overflow: auto; 
+    position: relative; 
     width: 100%;
  }
 
 .row {
     width: 80%;
+    height: auto;
     display: block;
     margin: 0 auto;
 }
@@ -42,12 +42,15 @@ img {
     text-align: right;
     vertical-align: middle;
     padding-top: 10px;
+    display: inline-block;
+    float: right;
 }
 
 .nav ul li {
     display: inline-block;
     margin-left: 20px;
     vertical-align: middle;
+    text-align: right;
 }
 
 .nav a, .nav p {
@@ -62,9 +65,50 @@ img {
     color: #D3643B;
 }
 
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;   
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: #363F3C;
+    padding: 10px 10px;
+    text-decoration: none;
+    display: block;
+}
+
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+    /**color: #D3643B;**/
+}
+
+
+
 /** HERO **/
 .hero {
     height: auto;
+    overflow: auto;
 }
 
 .hero img {
@@ -87,6 +131,7 @@ img {
 
 .case-study {
     background-color: #F2F1F0;
+    overflow: auto;
 }
 
 .case-study .row {
@@ -171,13 +216,12 @@ blockquote p {
     color: #D3643B;
 }**/
 
-/** LINKS 
+/** LINKS **/
 .button {
     display: block;
     margin: 0 auto;
     border-radius: 6px;
     background-color: #D3643B;
-    color: #FFFFFF;
     font-size: 20px;
     padding: 12px 28px;
     width: 200px;
@@ -186,28 +230,33 @@ blockquote p {
 
 .fa {
     color: #363F3C;
-    margin-right: 30px;
+    margin-right: 45px;
 }
 
-.links ul li {
+.links a {
     text-decoration: none;
+    color: #F2F1F0;
+}
+.links ul li {
     display: inline-block;
     font-size: 48px;
-    padding-right: 35px;
-    text-align: center;
+    /**padding-right: 35px;
+    text-align: center;**/
 }
 
 .links ul {
     text-align: center;
     padding-top: 50px;
     padding-bottom: 50px;
-}**/
+}
+    
     
 
 /** FOOTER **/
 .footer {
     background-color: #363F3C;
     height: 80px;
+    overflow: auto;
 }
 
 .footer p {
