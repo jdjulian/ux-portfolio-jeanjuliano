@@ -10,10 +10,12 @@ html, body{
     position: relative;
     overflow: auto; 
     width: 100%;
+    height: auto;
  }
 
 .row {
     width: 80%;
+    height: auto;
     display: block;
     margin: 0 auto;
 }
@@ -27,6 +29,7 @@ html, body{
 .left, .right {
     float: left;
     width: 50%;
+    height: auto;
 }
 
 .name {
@@ -61,26 +64,28 @@ html, body{
 .hero {
     background-image: url("/images/About-Photo4.png");
     background-size: cover;
-    height: 450px;
+    height: auto;
 }
 
 .hero .left {
     width: 70%;
+    height: auto;
 }
 
-h1 {
+.hero h1 {
     padding-top: 70px;
     font-size: 60px;
     color: #F2F1F0;
     font-weight: 500;
-    line-height: 10px;
+    line-height: 60px;
 }
 
-h2 {
+.hero h2 {
     font-size: 32px;
     color: white;
     font-weight: 100;
     line-height: 50px;
+    padding-bottom: 70px;
 }
 
 /** BIO **/
@@ -101,7 +106,6 @@ span {
     margin: 0 auto;
     border-radius: 6px;
     background-color: #D3643B;
-    color: #FFFFFF;
     font-size: 20px;
     padding: 12px 28px;
     width: 200px;
@@ -110,11 +114,14 @@ span {
 
 .fa {
     color: #363F3C;
-    margin-right: 30px;
+    margin-right: 45px;
 }
 
-.links ul li {
+.links a {
     text-decoration: none;
+    color: #F2F1F0;
+}
+.links ul li {
     display: inline-block;
     font-size: 48px;
     /**padding-right: 35px;

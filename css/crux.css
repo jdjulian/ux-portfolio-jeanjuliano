@@ -68,7 +68,7 @@ img {
 }
 
 .hero img {
-    padding-top: 50px;
+    padding-top: 60px;
     width: 25%;
     display: block;
     margin: 0 auto;
@@ -80,6 +80,7 @@ img {
     font-weight: 100;
     line-height: 50px;
     text-align: center;
+    padding-bottom: 50px;
 }
 
 /** CASE-STUDY **/
@@ -94,17 +95,46 @@ img {
     margin: 0 auto;
 }
 
+.before-after {
+    width: 100%;
+    overflow: auto;
+}
+
+.before, .after {
+    float: left;
+    width: 50%;
+    height: auto;
+}
+
+.before-after img {
+    width: 35%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+
 .case-study p {
     font-size: 18px;
     line-height: 25px;
 }
 
 .case-study h3 {
-    font-size: 28px;
+    font-size: 36px;
 }
 
 .case-study h4 {
-    font-size: 24px;
+    font-size: 28px;
+}
+
+.case-study h6 {
+    font-size: 16px;
+}
+
+.case-study a {
+    text-decoration: none;
+    color: #D3643B;
+    font-weight: 500;
 }
 
 .case-study img {
