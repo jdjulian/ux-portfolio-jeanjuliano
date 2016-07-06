@@ -268,3 +268,14 @@ blockquote p {
     vertical-align: middle;
     font-size: 16px;
 }
+
+/**JSWEETS**/
+.hero .jSweetsLogo {
+    width: 30%;
+}
+
+/**WISE MOVES PILATES**/
+.hero .wiseMovesLogo {
+    width: 40%;
+}
+
