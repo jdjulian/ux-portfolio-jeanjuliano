@@ -251,8 +251,10 @@ blockquote p {
     padding-top: 50px;
     padding-bottom: 50px;
 }
-    
-    
+
+.links {
+    margin-top: 90px;
+} 
 
 /** FOOTER **/
 .footer {
@@ -279,8 +281,8 @@ blockquote p {
     width: 30%;
 }
 
-/**backgrounds**/
-.problem, process, .conclusion {
+/**crux backgrounds**/
+.problem, .process, .conclusion {
     background-color: white;
 }
 
@@ -289,10 +291,77 @@ blockquote p {
 }
 
 .problem h3, .solution h3, .branding h3 {
+    padding-top: 60px;
+}
+
+.process h3, .conclusion h3 {
     padding-top: 30px;
 }
 
-.problem p:last-child, .solution p:last-child, .branding p:last-child {
+.process p, .conclusion p:last-child {
     padding-bottom: 30px;
 }
-    
+
+.problem p, .solution p:last-child, .branding p:last-child {
+    padding-bottom: 60px;
+}
+
+.links {
+    margin-top: 90px;
+}
+
+/**jsweets backgrounds**/
+.jsweets-problem, .jsweets-process, .jsweets-conclusion {
+    background-color: white;
+}
+
+.jsweets-solution, .jsweets-branding {
+    background-color: #F2F1F0; 
+}
+
+.jsweets-problem h3, .jsweets-solution h3, .jsweets-branding h3 {
+    padding-top: 60px;
+}
+
+.jsweets-process h3, .jsweets-conclusion h3 {
+    padding-top: 60px;
+}
+
+.jsweets-process p {
+    padding-bottom: 60px;
+}
+
+.jsweets-conclusion .row, .jsweets-branding .row {
+    padding-bottom: 60px;
+}
+
+.jsweets-problem p, .jsweets-solution p:last-child {
+    padding-bottom: 60px;
+}
+
+/**wise backgrounds**/
+.wise-problem, .wise-process, .wise-conclusion {
+    background-color: white;
+}
+
+.wise-solution, .wise-branding {
+    background-color: #F2F1F0; 
+}
+
+.wise-problem h3, .wise-branding h3, .wise-process h3, .wise-conclusion h3 {
+    padding-top: 60px;
+}
+
+.wise-solution {
+    padding-top: 30px;
+}
+
+.wise-process .row, .wise-conclusion .row, .wise-branding .row, .wise-solution .row {
+    padding-bottom: 60px;
+}
+
+.wise-problem p, .wise-solution p:last-child {
+    padding-bottom: 30px;
+}
+
+ 
