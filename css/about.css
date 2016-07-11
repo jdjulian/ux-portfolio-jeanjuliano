@@ -187,3 +187,67 @@ span {
     vertical-align: middle;
     font-size: 16px;
 }
+
+/**CONTACT**/
+input, textarea {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    color: #363F3C;
+}
+
+input[type=text], textarea {
+    border: 2px solid gray;
+    border-radius: 4px;
+    margin-top: 5px;
+    color: #363F3C;
+}
+
+input[type=text] {
+    height: 30px;
+    line-height: 0px;
+}
+
+.contact-row {
+    width: 50%;
+    display: block;
+    margin: 0 auto;
+}
+
+.form-background {
+    width: 80%;
+    background-color: lightgray;
+    display: block;
+    margin: 0 auto;
+}
+
+form {
+    margin-top: 60px;
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+
+.contact-button {
+    display: block;
+    margin: 0 auto;
+    border-radius: 6px;
+    background-color: #D3643B;
+    border: none;
+    font-size: 20px;
+    padding: 12px 28px;
+    width: 101%;
+    text-align: center;
+    margin-top: 10px;
+}
+
+input[type=submit] {
+    color: #F2F1F0;
+}
+
+.contact-intro {
+    padding-top: 50px;
+    font-size: 25px;
+    line-height: 35px;
+    padding-bottom: 10px;
+    text-align: center;
+}
