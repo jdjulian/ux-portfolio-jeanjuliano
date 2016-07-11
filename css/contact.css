@@ -211,9 +211,27 @@ input[type=text] {
 }
 
 .contact-row {
-    width: 50%;
+    width: 80%;
     display: block;
     margin: 0 auto;
+}
+
+.name-email {
+    overflow: auto;
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+.form-name, .form-email {
+    float: left;
+    width: 380px;
+    display: block;
+    margin: 0 auto;
+}
+
+.form-email {
+    padding-left: 25px;
 }
 
 .form-background {

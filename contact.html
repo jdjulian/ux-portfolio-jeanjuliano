@@ -51,28 +51,31 @@ jeanjuliano927@gmail.com</p>
             <div class="contact-row">
                 <form action="https://getsimpleform.com/messages?form_api_token=42ced0272a95370e27aa88ce2ee32a2f" method="post">
   <!-- the redirect_to is optional, the form will redirect to the referrer on submission -->
-  <input type='hidden' name='redirect_to' value='https://jdjulian.github.io/thank-you>' />
+                    <input type='hidden' name='redirect_to' value='https://jdjulian.github.io/thank-you>' />
   <!-- all your input fields here.... -->
-
-  <label for="last_name">Name *</label><br>
-  <input  type="text" name="first_name" maxlength="100" size="30"><br><br>
-
-  <label for="email">Email Address *</label><br>
-
-  <input  type="text" name="email" maxlength="80" size="30"><br><br>
-
-  <label for="comments">Message *</label><br>
-
-  <textarea  name="comments" maxlength="1000" cols="50" rows="12"></textarea><br>
+                    <div class="name-email">
+                        <div class="form-name">
+                            <label for="last_name">Name</label><br>
+                            <input class="form-name"  type="text" name="first_name" maxlength="100" size="30">
+                        </div>
+                        
+                        <div class="form-email">
+                            <label for="email">Email Address</label><br>
+                            <input class="form-email" type="text" name="email" maxlength="80" size="30">
+                        </div>
+                    </div> <br>
                     
-  <input class="contact-button" type='submit' value='Send' />
-  <!--<form ... >
-  <input type="text" name="name" />
-  <input type="text" name="title" />
-  <textarea name="message" />
-</form>-->
-</form>
-                </div>
+                    <label for="subject">Subject</label><br>
+                            <input type="text" name="subject" maxlength="80" size="30"><br>
+
+                    <label for="comments">Message</label><br>
+
+                        <textarea  name="comments" maxlength="1000" cols="50" rows="12"></textarea><br>
+                    
+                    <input class="contact-button" type='submit' value='Send' />
+
+                </form>
+            </div>
       
             </div>
         </div>

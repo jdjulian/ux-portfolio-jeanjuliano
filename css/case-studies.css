@@ -302,8 +302,8 @@ blockquote p {
     padding-bottom: 30px;
 }
 
-.problem p, .solution p:last-child, .branding p:last-child {
-    padding-bottom: 60px;
+.problem .row, .solution p:last-child, .branding p:last-child {
+    padding-bottom: 30px;
 }
 
 .links {
@@ -335,7 +335,7 @@ blockquote p {
     padding-bottom: 60px;
 }
 
-.jsweets-problem p, .jsweets-solution p:last-child {
+.jsweets-problem p, .jsweets-solution .row {
     padding-bottom: 60px;
 }
 
