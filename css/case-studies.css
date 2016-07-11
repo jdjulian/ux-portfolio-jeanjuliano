@@ -279,3 +279,20 @@ blockquote p {
     width: 30%;
 }
 
+/**backgrounds**/
+.problem, process, .conclusion {
+    background-color: white;
+}
+
+.solution, .branding {
+    background-color: #F2F1F0; 
+}
+
+.problem h3, .solution h3, .branding h3 {
+    padding-top: 30px;
+}
+
+.problem p:last-child, .solution p:last-child, .branding p:last-child {
+    padding-bottom: 30px;
+}
+    
