@@ -99,7 +99,7 @@ html, body{
 
 /** HERO **/
 .hero {
-    background-image: url("images/About-Photo4.png");
+    background-image: url("../images/About-Photo4.png");
     background-size: cover;
     height: auto;
     overflow: auto;
