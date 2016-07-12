@@ -190,10 +190,19 @@ html, body {
 .case-studies .left {
     background: url("../images/pink_birds.png");
     background-size: 100%;
-    filter: blur(5px);
-    -moz-filter   : blur(5px);
-    -webkit-filter: blur(5px);
-    -o-filter     : blur(5px);
+    filter: blur(10px);
+    -moz-filter   : blur(10px);
+    -webkit-filter: blur(10px);
+    -o-filter     : blur(10px);
+}
+
+.case-studies .left:hover {
+    background: url("../images/pink_birds.png");
+    background-size: 100%;
+    filter: blur(0px);
+    -moz-filter   : blur(0px);
+    -webkit-filter: blur(0px);
+    -o-filter     : blur(0px);
 }
 
 .case-studies .middle {
@@ -207,10 +216,19 @@ html, body {
 .case-studies .right {
     background-image: url("../images/pilates-elderly.jpg");
     background-size: 100%;
-    filter: blur(5px);
-    -moz-filter   : blur(5px);
-    -webkit-filter: blur(5px);
-    -o-filter     : blur(5px);
+    filter: blur(10px);
+    -moz-filter   : blur(10px);
+    -webkit-filter: blur(10px);
+    -o-filter     : blur(10px);
+}
+
+.case-studies .right:hover {
+    background-image: url("../images/pilates-elderly.jpg");
+    background-size: 100%;
+    filter: blur(0px);
+    -moz-filter   : blur(0px);
+    -webkit-filter: blur(0px);
+    -o-filter     : blur(0px);
 }
 
 .logo-white {
