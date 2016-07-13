@@ -110,7 +110,7 @@ html, body {
     height: auto;
     display: block;
     margin: 0 auto;
-    padding-top: 55px;
+    padding-top: 40px;
 }
 
 .hero .left img {
@@ -256,6 +256,64 @@ html, body {
     padding-top: 15px;
     font-size: 16px;
 }
+
+/** MEDIA QUERIES**/
+@media (min-width: 400px) and (max-width:600px) {
+    .left, .right, .middle {
+        width: 100%;
+        height: auto;
+    }
+    
+    .left img {
+        min-width: 70%;
+        height: auto;
+    }
+    
+    .hero .right img {
+        display: none;
+    }
+    
+    .case-studies {
+        min-height: 250px;
+    }
+
+    .case-studies img {
+    display: block;
+    margin: 0 auto;
+    z-index: 99;
+    }
+
+    .case-studies .left img {
+    min-width: 60%;
+    height: auto;
+    
+    }
+
+    .case-studies .right img {
+    min-width: 60%;  
+    height: auto;
+    }
+
+    .case-studies .row {
+    width: 100%;
+    overflow: auto;
+    }
+
+    .case-studies .left, .case-studies .right {
+    float: none;
+    width: 100%;
+    height: auto;
+    }
+
+    .case-studies .middle {
+    display: none;
+    }
+
+    .logo-white {
+    margin-top: 0%;
+    opacity: .9;
+    }
+
 
 
 
