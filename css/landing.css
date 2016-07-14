@@ -273,9 +273,6 @@ html, body {
         display: none;
     }
     
-    .case-studies {
-        min-height: 250px;
-    }
 
     .case-studies img {
     display: block;
