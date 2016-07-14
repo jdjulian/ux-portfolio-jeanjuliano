@@ -81,6 +81,7 @@ img {
     width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
+    border-radius: 4px;
 }
 
 /* Links inside the dropdown */
@@ -232,7 +233,7 @@ blockquote p {
 
 .fa {
     color: #363F3C;
-    margin-right: 45px;
+    margin-right: 35px;
 }
 
 .links a {
@@ -255,7 +256,7 @@ blockquote p {
 .links {
     margin-top: 90px;
 } 
-
+    
 /** FOOTER **/
 .footer {
     background-color: #363F3C;
@@ -304,10 +305,6 @@ blockquote p {
 
 .problem .row, .solution p:last-child, .branding p:last-child {
     padding-bottom: 30px;
-}
-
-.links {
-    margin-top: 90px;
 }
 
 /**jsweets backgrounds**/
@@ -363,5 +360,54 @@ blockquote p {
 .wise-problem p, .wise-solution p:last-child {
     padding-bottom: 30px;
 }
+
+/**HAMBURGER**/
+.hamburger {
+   position:absolute;
+   z-index: 1000;
+   background: none;
+   color:#363F3C;
+   text-decoration: none;
+   font-size: 35px;
+   left: 85%;
+   top: 2px;
+   padding-top: 5px;
+ }
+
+/** MEDIA QUERIES**/
+@media (min-width: 100px) and (max-width:702px) {
+    .left, .right, .middle {
+        width: 100%;
+        height: auto;
+    }
+    
+    .left img {
+        min-width: 70%;
+        height: auto;
+    }
+    
+    .nav ul { display: none; }  
+}
+
+@media (min-width: 702px) {
+     .hamburger { display:none; }
+ }
+
+@media (min-width: 100px) and (max-width:600px) {
+    .hero img { min-width: 80%; }   
+}
+
+@media (min-width: 601px) and (max-width:800px) {
+    .hero img { min-width: 50%; }   
+}
+
+@media (min-width: 801px) and (max-width:1000px) {
+    .hero img { min-width: 40%; }   
+}
+
+@media (min-width: 1001px) and (max-width:1440px) {
+    .hero img { min-width: 30%; }  
+}
+
 
  

@@ -73,6 +73,7 @@ html, body{
     width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
+    border-radius: 4px;
 }
 
 /* Links inside the dropdown */
@@ -251,3 +252,39 @@ input[type=submit] {
     padding-bottom: 10px;
     text-align: center;
 }
+
+/**HAMBURGER**/
+.hamburger {
+   position:absolute;
+   z-index: 1000;
+   background: none;
+   color:#363F3C;
+   text-decoration: none;
+   font-size: 35px;
+   left: 85%;
+   top: 2px;
+   padding-top: 5px;
+ }
+
+/** MEDIA QUERIES**/
+@media (min-width: 100px) and (max-width:702px) {
+    .left, .right, .middle {
+        width: 100%;
+        height: auto;
+    }
+    
+    .left img {
+        min-width: 70%;
+        height: auto;
+    }
+    
+    .hero .right img {
+        display: none;
+    }
+    
+    .nav ul { display: none; }  
+}
+
+@media (min-width: 702px) {
+     .hamburger { display:none; }
+ }
