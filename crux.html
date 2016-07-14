@@ -13,10 +13,24 @@
         <link rel="stylesheet" type="text/css" href="css/normalize.css">
         <link rel="stylesheet" type="text/css" href="css/case-studies.css">
         <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+        <link rel="stylesheet" type="text/css"href="css/dropit.css">
         
     </head>
 
     <body>
+        <!-- RESPONSIVE NAV -->
+        <section class="hamburger">
+            <ul id="menu">
+                <li><a class="hamburger" id="menu" href="#">&#9776;</a>
+                    <ul>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="index.html">Work</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </section>
+        
         <div class="container nav"> <!--nav bar-->
             <div class="row">
                 <div class="left">
@@ -286,5 +300,9 @@ The second phase of this project will be to conduct research of small businesses
         
         <!--Javascript-->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+    <script src="js/dropit.js"></script>
+    <script type="text/javascript">
+        $( "#menu" ).dropit();
+    </script>
     </body>
 </html>
