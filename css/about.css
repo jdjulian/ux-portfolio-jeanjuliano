@@ -285,6 +285,16 @@ input[type=submit] {
     .nav ul { display: none; }  
 }
 
+@media (min-width: 100px) and (max-width:600px) {
+    .fa {
+        margin-right: 25px;
+    }
+
+    .links ul li {
+        font-size: 42px;
+    }
+}
+
 @media (min-width: 702px) {
      .hamburger { display:none; }
  }
