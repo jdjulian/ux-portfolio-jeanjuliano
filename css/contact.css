@@ -317,7 +317,7 @@ a {
 @media (min-width: 100px) and (max-width:600px) {
     
     .fa {
-        margin-right: 25px;
+        margin-right: 20px;
     }
 
     .links ul li {
