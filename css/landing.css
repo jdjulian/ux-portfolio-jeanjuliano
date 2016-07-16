@@ -286,20 +286,12 @@ html, body {
         display: none;
     }
 
-    .case-studies img {
+    .case-studies .left img, .case-studies .right img {
+        min-width: 60%;
+        height: auto;
         display: block;
         margin: 0 auto;
         z-index: 99;
-    }
-
-    .case-studies .left img {
-        min-width: 60%;
-        height: auto;
-    }
-
-    .case-studies .right img {
-        min-width: 60%;  
-        height: auto;
     }
 
     .case-studies .row {
@@ -321,8 +313,6 @@ html, body {
         -webkit-filter: blur(0px);
         -o-filter     : blur(0px);
     }  
-
-
 
     .case-studies .right {
         background-image: url("../images/pilates-elderly.jpg");
@@ -358,7 +348,9 @@ html, body {
 @media (min-width: 703px) and (max-width: 1072) {
     .case-studies {
         height: inherit;
+    }
  }
+    
 
 
 
