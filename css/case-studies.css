@@ -233,7 +233,7 @@ blockquote p {
 
 .fa {
     color: #363F3C;
-    margin-right: 35px;
+    margin-right: 30px;
 }
 
 .links a {
@@ -408,6 +408,8 @@ blockquote p {
 @media (min-width: 1001px) and (max-width:1440px) {
     .hero img { min-width: 30%; }  
 }
+
+
 
 
  

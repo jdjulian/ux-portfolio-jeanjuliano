@@ -285,51 +285,81 @@ html, body {
     .hero .right img {
         display: none;
     }
-    
 
     .case-studies img {
-    display: block;
-    margin: 0 auto;
-    z-index: 99;
+        display: block;
+        margin: 0 auto;
+        z-index: 99;
     }
 
     .case-studies .left img {
-    min-width: 60%;
-    height: auto;
-    
+        min-width: 60%;
+        height: auto;
     }
 
     .case-studies .right img {
-    min-width: 60%;  
-    height: auto;
+        min-width: 60%;  
+        height: auto;
     }
 
     .case-studies .row {
-    width: 100%;
-    overflow: auto;
+        width: 100%;
+        overflow: auto;
     }
 
     .case-studies .left, .case-studies .right {
-    float: none;
-    width: 100%;
-    height: auto;
+        float: none;
+        width: 100%;
+        height: auto;
     }
+    
+    .case-studies .left {
+        background: url("../images/pink_birds.png");
+        background-size: 100%;
+        filter: blur(0px);
+        -moz-filter   : blur(0px);
+        -webkit-filter: blur(0px);
+        -o-filter     : blur(0px);
+    }  
 
-    .case-studies .middle {
-    display: none;
+
+
+    .case-studies .right {
+        background-image: url("../images/pilates-elderly.jpg");
+        background-size: 100%;
+        filter: blur(0px);
+        -moz-filter   : blur(0px);
+        -webkit-filter: blur(0px);
+        -o-filter     : blur(0px);
     }
 
     .logo-white {
-    margin-top: 0%;
-    opacity: .9;
+        background-color: white;
+        margin-top: 15%;
+        opacity: .95
+    }
+
+    .case-studies .middle {
+        display: none;
+    }
+
+    .logo-white {
+        margin-top: 0%;
+        opacity: .9;
     }
     
     .nav ul { display: none; }  
 }
 
 @media (min-width: 702px) {
-     .hamburger { display:none; }
+    .hamburger { display:none; }
  }
+
+@media (min-width: 703px) and (max-width: 1072) {
+    .case-studies {
+        height: inherit;
+ }
+
 
 
 
