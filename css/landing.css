@@ -190,10 +190,10 @@ html, body {
 .case-studies .left {
     background: url("../images/pink_birds.png");
     background-size: 100%;
-    filter: blur(10px);
+    /**filter: blur(10px);
     -moz-filter   : blur(10px);
     -webkit-filter: blur(10px);
-    -o-filter     : blur(10px);
+    -o-filter     : blur(10px);**/
 }
 
 .case-studies .left:hover {
@@ -216,10 +216,10 @@ html, body {
 .case-studies .right {
     background-image: url("../images/pilates-elderly.jpg");
     background-size: 100%;
-    filter: blur(10px);
+    /**filter: blur(10px);
     -moz-filter   : blur(10px);
     -webkit-filter: blur(10px);
-    -o-filter     : blur(10px);
+    -o-filter     : blur(10px);**/
 }
 
 .case-studies .right:hover {
